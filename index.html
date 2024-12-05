@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rob Perry - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Rob Perry, M.A.
+          <div class="contact_info">
+            <!-- LINE FOR EMAIL ICON <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/> -->
+          RobPerryinc@protonmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <!-- LINE FOR PHONE ICON <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/> -->
+          +420 734 886 938
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#about-me">C.V.</a>
+          <a class="topmenu" href="#about-me">Projects</a>
+          <a class="topmenu" href="#about-me">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Rob! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a full-stack developer and UX desinger with over 8 years experience in international education.
+            I have worked on programs for Canadian Immigration and underprivileged children in China and Korea.
+            I love tinkering with Linux systems, particularly Ubuntu, Fedora, & SteamOS.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+      
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/2779/2779775.png"/>
+            <h6>UX Design</h6>
+            <p>6 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/4406/4406319.png"/>
+            <h6>Education</h6>
+            <p>8 years experiece</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/8004/8004415.png"/>
+            <h6>Full-stack</h6>
+            <p>1 year experience</p>
+          </div>  
+  
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png"/>
+            <h6>JavaScript</h6>
+            <p>2 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/5726/5726532.png"/>
+            <h6>Something cool</h6>
+            <p>A long time</p>
+          </div>  
+  
+          <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/128/5726/5726532.png"/>
+            <h6>Something cooler</h6>
+            <p>A longer time</p>
+          </div>  
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>ESL for Immigration Services</h3>
+            <ul>
+              <li> Developed ESL/social integration software for new migrants, immigrants, and refugees in Canada.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>T.O.B.E. project: Today's Opportunity for Better Education</h3>
+            <ul>
+              <li>Developed online ESL platform and materials for underprivileged children in China & Korea.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>This website!</h3>
+            <ul>
+              <li>I built this website using some base code and a lot of elbow grease. Personally I would like more
+                  late 90s, AOL-style kitsch, but I'm trying to impress prospective employers here.
+              </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          This is a spot where you can leave feedback and comments, particularly if you would like 
+          to pay me exorbiant amounts of money to make your website and app pretty. Mostly, it's just
+          proof I can make things that work.
+          <span>&#8221;</span>
+        </div>
+
+        <!-- Comments removed but retained in case
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jane has been an awesome experience. 
+          She is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jane during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+        -->
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Your comment has been added. <br>Now, go look at some pictures of Toby.</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
